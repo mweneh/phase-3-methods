@@ -3,12 +3,10 @@ def greet_programmer
     puts "Hello, programmer!" 
 end
 
-def greet(name="")
-    
-    puts "Hello #{name}!"
+def greet(name)
+    puts "Hello, #{name}!"
 end
-greet "Naureen"
-greet "Jimmy"
+greet("Naureen")
 
 def greet_with_default(name = "programmer")
     puts "Hello, #{name}!"
